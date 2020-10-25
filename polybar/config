@@ -175,8 +175,8 @@ label-muted-foreground = #FFF
 
 [module/battery]
 type = internal/battery
-battery = BAT1
-adapter = ACAD
+battery = BAT0
+adapter = AC0
 full-at = 98
 
 format-full-margin = 1
