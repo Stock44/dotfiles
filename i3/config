@@ -156,7 +156,7 @@ exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
 exec --no-startup-id "xss-lock ~/.config/i3-lock/lock.sh"
 exec --no-startup-id nm-applet
 exec --no-startup-id "picom -C"
-exec --no-startup-id "hsetroot -solid '#1A1A1A'"
+exec --no-startup-id "hsetroot -solid '#DEDEDE'"
 
 # border colors
 for_window [class=".*"] border pixel 1
@@ -168,4 +168,4 @@ client.focused_inactive #303030 #000000 #ffffff #F92672 #303030
 # Add gaps
 gaps inner 16
 gaps outer 8
-gaps bottom 30
+gaps bottom 40
