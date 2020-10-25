@@ -149,8 +149,8 @@ bindsym XF86MonBrightnessDown exec "xbacklight - 5"
 bindsym $mod+l exec "~/.config/i3-lock/lock.sh"
 
 # Commands to execute at startup
-exec_always --no-startup-id $HOME/.scripts/launch_polybar.sh
-exec_always --no-startup-id $HOME/.scripts/launch_xava.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
+exec_always --no-startup-id $HOME/.config/xava/launch_xava.sh
 exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
 
 exec --no-startup-id "xss-lock ~/.config/i3-lock/lock.sh"
