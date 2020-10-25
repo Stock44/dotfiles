@@ -156,7 +156,6 @@ exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
 exec --no-startup-id "xss-lock ~/.config/i3-lock/lock.sh"
 exec --no-startup-id nm-applet
 exec --no-startup-id "picom -C"
-exec --no-startup-id "setxkbmap -layout latam"
 exec --no-startup-id "hsetroot -solid '#1A1A1A'"
 
 # border colors
