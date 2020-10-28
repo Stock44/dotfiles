@@ -156,7 +156,7 @@ exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
 exec --no-startup-id "xss-lock ~/.config/i3-lock/lock.sh"
 exec --no-startup-id nm-applet
 exec --no-startup-id "picom -C"
-exec --no-startup-id "hsetroot -solid '#DEDEDE'"
+exec --no-startup-id "feh --bg-scale ~/Pictures/bg.png"
 
 # border colors
 for_window [class=".*"] border pixel 1
