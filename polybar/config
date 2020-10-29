@@ -17,14 +17,14 @@
 ;==========================================================
 
 [colors]
-bg = ${env:MONOKAI_BG:#000}
-fg = #DEDEDE
-blue = ${env:MONOKAI_BLUE:#FFF}
-green = ${env:MONOKAI_GREEN:#FFF}
-red = ${env:MONOKAI_RED:#FFF}
-yellow = ${env:MONOKAI_YELLOW:#FFF}
-orange = ${env:MONOKAI_ORANGE:#FFF}
-purple = ${env:MONOKAI_PURPLE:#FFF}
+bg = ${env:THEME_BG:#000}
+fg = ${env:THEME_FG:#FFF}
+blue = ${env:THEME_BLUE:#FFF}
+green = ${env:THEME_GREEN:#FFF}
+red = ${env:THEME_RED:#FFF}
+yellow = ${env:THEME_YELLOW:#FFF}
+orange = ${env:THEME_ORANGE:#FFF}
+purple = ${env:THEME_PURPLE:#FFF}
 
 [bar/topbar]
 ;monitor = 
@@ -44,7 +44,6 @@ module-margin-right = 0
 
 font-0 = IBM Plex Serif:style=Regular:size=15;4
 font-1 = BlexMono Nerd Font Mono:style=Regular:size=15;4
-
 modules-left = i3-screen i3-mode xkeyboard
 modules-center = 
 modules-right = pulseaudio memory cpu battery temperature date
@@ -64,7 +63,6 @@ wrapping-scroll = false
 format = <label-state>
 format-margin = 1
 format-background = ${colors.bg}
-format-foreground = ${colors.fg}
 
 format-prefix = 
 format-prefix-foreground = ${colors.bg}
@@ -74,8 +72,6 @@ format-suffix = 
 format-suffix-foreground = ${colors.bg}
 format-suffix-background = ${colors.fg}
 
-label-mode = %{F#212121}%{B#212121}%{F#DEDEDE} %mode% %{F#212121}%{B}
-
 ; focused = Active workspace on focused monitor
 label-focused = %{F#DEDEDE}%{B#212121}%{B#DEDEDE}%{F#212121} %index% %{F#DEDEDE}%{B#212121}
 label-focused-padding = 1
@@ -83,21 +79,24 @@ label-focused-padding = 1
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = "%index%"
 label-unfocused-padding = 2
+label-unfocused-foreground = ${colors.red}
 
 ; visible = Active workspace on unfocused monitor
 label-visible = "%index%"
 label-visible-padding = 2
+label-visible-foreground = ${colors.red}
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %index% 
 label-urgent-padding-left = 2
+label-urgent-foreground = ${colors.orange}
 
 [module/i3-mode]
 type = internal/i3
 
 format = <label-mode>
 format-background = ${colors.bg}
-format-foreground = ${colors.fg}
+format-foreground = ${colors.blue}
 
 format-prefix = 
 format-prefix-foreground = ${colors.bg}
@@ -110,7 +109,7 @@ format-suffix-background = ${colors.fg}
 type = internal/cpu
 interval = 2
 
-format-foreground = ${colors.fg}
+format-foreground = ${colors.purple}
 format-background = ${colors.bg}
 
 format-padding = 1
@@ -123,7 +122,7 @@ interval = 2
 
 
 format-background = ${colors.bg}
-format-foreground = ${colors.fg}
+format-foreground = ${colors.green}
 
 label = "  %percentage_used%% "
 
@@ -141,7 +140,7 @@ format-suffix = 
 format-suffix-foreground = ${colors.bg}
 format-suffix-background = ${colors.fg}
 
-format-foreground = ${colors.fg}
+format-foreground = ${colors.blue}
 format-background = ${colors.bg}
 label = "  %time% | %date%  "
 
@@ -154,19 +153,17 @@ format-volume-prefix = 
 format-volume-prefix-foreground = ${colors.bg}
 format-volume-prefix-background = ${colors.fg}
 
-format-volume-foreground = ${colors.fg}
+format-volume-foreground = ${colors.yellow}
 format-volume-background = ${colors.bg}
 label-volume = "墳 %percentage%%"
 
-
-format-muted-prefix = 
+format-muted-prefix = 
 format-muted-prefix-foreground = ${colors.bg}
-
-format-muted-suffix = 
-format-muted-suffix-foreground = ${colors.bg}
+format-muted-prefix-background = ${colors.fg}
 
 label-muted = ﱝ muted
-label-muted-foreground = ${colors.bg}
+label-muted-foreground = ${colors.yellow}
+label-muted-background = ${colors.bg}
 
 [module/battery]
 type = internal/battery
@@ -175,11 +172,11 @@ adapter = AC0
 full-at = 98
 
 format-discharging-background = ${colors.bg}
-format-discharging-foreground = ${colors.fg}
+format-discharging-foreground = ${colors.orange}
 format-charging-background = ${colors.bg}
-format-charging-foreground = ${colors.fg}
+format-charging-foreground = ${colors.orange}
 format-full-background = ${colors.bg}
-format-full-foreground = ${colors.fg}
+format-full-foreground = ${colors.orange}
 
 format-charging = <animation-charging> <label-charging>
 format-discharging = <animation-discharging> <label-discharging>
@@ -210,9 +207,9 @@ warn-temperature = 60
 format = " <label>"
 format-warn = " <label-warn>"
 format-background = ${colors.bg}
-format-foreground = ${colors.fg}
+format-foreground = ${colors.red}
 format-warn-background = ${colors.bg}
-format-warn-foreground = ${colors.fg}
+format-warn-foreground = ${colors.red}
 label = %temperature-c%
 label-warn = %temperature-c%
 
@@ -228,7 +225,7 @@ format-margin = 1
 
 format = <label-indicator>
 format-background = ${colors.bg}
-format-foreground = ${colors.fg}
+format-foreground = ${colors.green}
 
 format-prefix = 
 format-prefix-foreground = ${colors.bg}
