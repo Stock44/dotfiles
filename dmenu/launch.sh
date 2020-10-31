@@ -1,12 +1,13 @@
 #!/bin/bash
 
-dmenu_run -nb '#313131' \
-          -nf '#FFFFFF' \
-          -sf '#000000' \
-          -sb '#ee0000' \
-          -l 5 \
-          -fn 'Source Code Pro:regular:pixelsize=24' \
+dmenu_run -dim 0.2 \
+          -dc '#000000' \
+          -nb '#DEDEDE' \
+          -nf '#212121' \
+          -sf '#DEDEDE' \
+          -sb '#212121' \
+          -fn 'IBM Plex Serif:regular:pixelsize=24' \
           -w 900 \
           -x 510 \
-          -h 50 \
-          -y 200 
+          -y 200 \
+          -l 5
