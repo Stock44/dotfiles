@@ -164,6 +164,8 @@ client.focused #505050 #000000 #ffffff #F92672 #505050
 client.unfocused #303030 #000000 #ffffff #F92672 #303030
 client.focused_inactive #303030 #000000 #ffffff #F92672 #303030
 
+# Make intellij IDEs loading window floating
+for_window [class="jetbrains-.*" title="win0"] floating enable border none
 
 # Add gaps
 gaps inner 16
