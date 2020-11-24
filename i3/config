@@ -159,10 +159,7 @@ exec --no-startup-id "picom -C"
 exec --no-startup-id "feh --bg-scale ~/Pictures/bg.png"
 
 # border colors
-for_window [class=".*"] border pixel 1
-client.focused #505050 #000000 #ffffff #F92672 #505050
-client.unfocused #303030 #000000 #ffffff #F92672 #303030
-client.focused_inactive #303030 #000000 #ffffff #F92672 #303030
+for_window [class=".*"] border pixel 0
 
 # Make intellij IDEs loading window floating
 for_window [class="jetbrains-.*" title="win0"] floating enable border none
