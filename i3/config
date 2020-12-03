@@ -148,13 +148,17 @@ bindsym XF86MonBrightnessDown exec "xbacklight - 5"
 #Lock computer
 bindsym $mod+l exec "~/.config/i3-lock/lock.sh"
 
+# Zephyrus G14 Keyboard brightness
+bindsym XF86KbdBrightnessUp exec "asusctl -k high"
+bindsym XF86KbdBrightnessDown exec "asusctl -k off"
+
 # Commands to execute at startup
 exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id $HOME/.config/xava/launch_xava.sh
-exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
+#exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
+exec_always --no-startup-id flashfocus
 
-exec --no-startup-id "xss-lock ~/.config/i3-lock/lock.sh"
-exec --no-startup-id nm-applet
+#exec --no-startup-id "xss-lock ~/.config/i3-lock/lock.sh"
 exec --no-startup-id "picom -C"
 exec --no-startup-id "feh --bg-scale ~/Pictures/bg.png"
 
