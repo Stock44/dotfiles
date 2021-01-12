@@ -172,3 +172,6 @@ for_window [class="jetbrains-.*" title="win0"] floating enable border none
 gaps inner 16
 gaps outer 8
 gaps bottom 40
+
+# Bind the compose key to the menu key
+exec --no-startup-id "setxkbmap -option compose:menu"
