@@ -42,7 +42,7 @@ foreground = #0000
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = IBM Plex Serif:style=Regular:size=15;4
+font-0 = NotoSans Nerd Font:style=Regular:size=15;4
 font-1 = BlexMono Nerd Font Mono:style=Regular:size=15;4
 modules-left = i3-screen i3-mode xkeyboard
 modules-center = 
@@ -64,16 +64,17 @@ format = <label-state>
 format-margin = 1
 format-background = ${colors.bg}
 
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${colors.bg}
-format-prefix-background = ${colors.fg}
+format-prefix-background = #0000
 
-format-suffix = 
+format-suffix = 
 format-suffix-foreground = ${colors.bg}
-format-suffix-background = ${colors.fg}
+;format-suffix-background = #0000
+format-suffix-background = #0000
 
 ; focused = Active workspace on focused monitor
-label-focused = %{F#DEDEDE}%{B#212121}%{B#DEDEDE}%{F#212121} %index% %{F#DEDEDE}%{B#212121}
+label-focused = %{F#DEDEDE}%{B#212121}%{B#DEDEDE}%{F#212121} %index% %{F#DEDEDE}%{B#212121}
 label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
@@ -98,13 +99,13 @@ format = <label-mode>
 format-background = ${colors.bg}
 format-foreground = ${colors.blue}
 
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${colors.bg}
-format-prefix-background = ${colors.fg}
+format-prefix-background = #0000
 
-format-suffix = 
+format-suffix = 
 format-suffix-foreground = ${colors.bg}
-format-suffix-background = ${colors.fg}
+format-suffix-background = #0000
 [module/cpu]
 type = internal/cpu
 interval = 2
@@ -136,9 +137,9 @@ date = "%d/%m"
 time = " %H:%M "
 
 format-padding = 2
-format-suffix = 
+format-suffix = 
 format-suffix-foreground = ${colors.bg}
-format-suffix-background = ${colors.fg}
+format-suffix-background = #0000
 
 format-foreground = ${colors.blue}
 format-background = ${colors.bg}
@@ -149,17 +150,17 @@ type = internal/pulseaudio
 
 format-volume = "<label-volume>  "
 
-format-volume-prefix = 
+format-volume-prefix = 
 format-volume-prefix-foreground = ${colors.bg}
-format-volume-prefix-background = ${colors.fg}
+format-volume-prefix-background = #0000
 
 format-volume-foreground = ${colors.yellow}
 format-volume-background = ${colors.bg}
 label-volume = "墳 %percentage%%"
 
-format-muted-prefix = 
+format-muted-prefix = 
 format-muted-prefix-foreground = ${colors.bg}
-format-muted-prefix-background = ${colors.fg}
+format-muted-prefix-background = #0000
 
 label-muted = ﱝ muted
 label-muted-foreground = ${colors.yellow}
@@ -227,13 +228,13 @@ format = <label-indicator>
 format-background = ${colors.bg}
 format-foreground = ${colors.green}
 
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${colors.bg}
-format-prefix-background = ${colors.fg}
+format-prefix-background = #0000
 
-format-suffix = 
+format-suffix = 
 format-suffix-foreground = ${colors.bg}
-format-suffix-background = ${colors.fg}
+format-suffix-background = #0000
 [settings]
 screenchange-reload = true
 
