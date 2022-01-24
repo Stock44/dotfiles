@@ -17,13 +17,13 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+space exec ~/.config/dmenu/launch.sh
+# start rofi as program launcher
+bindsym $mod+space exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -i'
 
 # change focus
 # bindsym $mod+h focus left
@@ -106,8 +106,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# exit i3 and exit X session
+bindsym $mod+Shift+e exec --no-startup-id $HOME/.config/i3/exit_menu.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -136,6 +136,11 @@ mode "resize" {
 
 for_window [class="XAVA"] floating enable
 
+# Zoom window settings
+for_window [class="zoom"] floating enable
+for_window [class="zoom" title="Zoom Meeting"] floating disable
+for_window [class="zoom" title="Zoom - Free Account"] floating disable
+
 bindsym $mod+r mode "resize"
 
 bindsym $mod+b split horizontal
@@ -146,21 +151,21 @@ bindsym XF86MonBrightnessUp exec "xbacklight + 5"
 bindsym XF86MonBrightnessDown exec "xbacklight - 5"
 
 #Lock computer
-bindsym $mod+l exec "~/.config/i3-lock/lock.sh"
+bindsym $mod+l exec "~/.config/i3/lock.sh"
 
 # Zephyrus G14 Keyboard brightness
-bindsym XF86KbdBrightnessUp exec "asusctl -k high"
-bindsym XF86KbdBrightnessDown exec "asusctl -k off"
+bindsym XF86KbdBrightnessUp exec "asusctl -n"
+bindsym XF86KbdBrightnessDown exec "asusctl -p"
 
 # Commands to execute at startup
 exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
-exec_always --no-startup-id $HOME/.config/xava/launch_xava.sh
+#exec_always --no-startup-id $HOME/.config/glava/launch_glava.sh
 #exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
 exec_always --no-startup-id flashfocus
 
-#exec --no-startup-id "xss-lock ~/.config/i3-lock/lock.sh"
-exec --no-startup-id "picom -C"
-exec --no-startup-id "feh --bg-scale ~/Pictures/bg.png"
+exec --no-startup-id "xss-lock ~/.config/i3/lock.sh"
+exec --no-startup-id "picom"
+exec --no-startup-id "feh --bg-fill ~/Pictures/theme_bg.jpg"
 
 # border colors
 for_window [class=".*"] border pixel 0
