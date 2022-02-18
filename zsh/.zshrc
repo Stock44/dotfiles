@@ -1,4 +1,6 @@
 # Monokai dotfiles
+# Save starting directory to come back later
+SWD=$(pwd)
 
 cd $ZDOTDIR
 
@@ -40,5 +42,4 @@ precmd(){
     }
 }
 
-cd ~
-
+cd $SWD
