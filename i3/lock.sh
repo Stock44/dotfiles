@@ -1,13 +1,6 @@
 #!/bin/sh
 
-B='#00000000'  # blank
-C='#ffffff22'  # clear ish
-D='#ff00ffcc'  # default
-T='#ee00eeee'  # text
-W='#880000bb'  # wrong
-V='#bb00bbbb'  # verifying
-
-i3lock \
+[[ (-n "pidof i3lock") ]] && i3lock \
 --color=$THEME_FG \
 --insidever-color=$THEME_BG   \
 --ringver-color=$THEME_ORANGE     \

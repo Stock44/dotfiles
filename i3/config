@@ -160,7 +160,7 @@ bindsym XF86KbdBrightnessDown exec "asusctl -p"
 # Commands to execute at startup
 exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
 #exec_always --no-startup-id $HOME/.config/glava/launch_glava.sh
-#exec_always --no-startup-id $HOME/.scripts/launch_twmn.sh
+exec_always --no-startup-id $HOME/.config/wired/launch_wired.sh
 exec_always --no-startup-id flashfocus
 
 exec --no-startup-id "xss-lock ~/.config/i3/lock.sh"
