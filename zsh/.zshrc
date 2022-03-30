@@ -1,4 +1,5 @@
 # Monokai dotfiles
+
 # Save starting directory to come back later
 SWD=$(pwd)
 
@@ -25,9 +26,6 @@ source aliases.zsh
 # Source plugin autoupdater script
 source plugin_updater.zsh
 
-# Source Node Version Manager
-source /usr/share/nvm/init-nvm.sh
-
 # Activate shell history
 setopt inc_append_history share_history
 
@@ -43,3 +41,6 @@ precmd(){
 }
 
 cd $SWD
+
+# Source Node Version Manager
+source /usr/share/nvm/init-nvm.sh
