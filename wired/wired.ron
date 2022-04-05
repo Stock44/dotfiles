@@ -66,7 +66,6 @@
                 monitor: 0,
                 border_width: 3.0,
                 border_rounding: 3.0,
-                //background_color: Color(r: 0.15686, g: 0.15686, b: 0.15686, a: 1.0),
                 background_color: Color(hex: "#282828"),
                 border_color: Color(hex: "#ebdbb2"),
                 border_color_low: Color(hex: "#282828"),
@@ -75,7 +74,7 @@
 
                 gap: Vec2(x: 0.0, y: 8.0),
                 notification_hook: Hook(parent_anchor: BL, self_anchor: TL),
-            )),
+          )),
         ),
 
         (
@@ -109,7 +108,7 @@
                 color_hovered: Color(hex: "#fbf1c7"),
                 padding: Padding(left: 7.0, right: 7.0, top: 7.0, bottom: 0.0),
                 dimensions: (width: (min: 50, max: 150), height: (min: 0, max: 0)),
-            )),
+           )),
         ),
 
         (
@@ -129,7 +128,7 @@
                 lhs_dist: 35.0,
                 rhs_dist: 35.0,
                 scroll_t: 1.0,
-            )),
+           )),
         ),
 
 
