@@ -1,23 +1,23 @@
 #!/bin/sh
 
 [[ (-n "pidof i3lock") ]] && i3lock \
---color=$THEME_FG \
---insidever-color=$THEME_BG   \
+--color=$THEME_200 \
+--insidever-color=$THEME_1000   \
 --ringver-color=$THEME_ORANGE     \
 \
---insidewrong-color=$THEME_BG \
+--insidewrong-color=$THEME_1000 \
 --ringwrong-color=$THEME_RED   \
 \
---inside-color=$THEME_BG      \
---ring-color=$THEME_BG      \
---line-color=$THEME_BG        \
---separator-color=$THEME_BG   \
+--inside-color=$THEME_1000      \
+--ring-color=$THEME_1000      \
+--line-color=$THEME_1000        \
+--separator-color=$THEME_1000   \
 \
 --verif-color=$THEME_ORANGE        \
 --wrong-color=$THEME_RED        \
---time-color=$THEME_FG        \
---date-color=$THEME_FG        \
---layout-color=$THEME_FG      \
+--time-color=$THEME_200        \
+--date-color=$THEME_200        \
+--layout-color=$THEME_200      \
 --keyhl-color=$THEME_BLUE     \
 --bshl-color=$THEME_RED       \
 \
@@ -28,6 +28,8 @@
 --time-str="%H:%M"  \
 --date-str="%d/%m/%Y" \
 --keylayout 1         \
+\
+#--wrongtext="Wrong password"
 
 # --veriftext="Drinking verification can..."
 # --wrongtext="Nope!"

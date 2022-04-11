@@ -19,7 +19,7 @@ let s:yellow = $THEME_YELLOW
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 
-let s:p.normal.left     = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:fg_d ] ]
+let s:p.normal.left     = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:fg_d ] ]
 let s:p.normal.middle   = [ [ s:fg, s:fg_d ] ]
 let s:p.inactive.left   = [ [ s:fg_d,  s:bg ], [ s:fg_d, s:bg ] ]
 let s:p.inactive.middle = [ [ s:fg_d, s:fg_d ] ]

@@ -190,7 +190,6 @@ for_window [title="Vivaldi Settings*"] floating enable
 
 # Add gaps
 gaps inner 16
-gaps outer 8
 gaps bottom 40
 
 # Bind the compose key to the menu key

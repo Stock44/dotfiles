@@ -38,4 +38,4 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 add-zsh-hook precmd vcs_info
 
 # Set the prompt
-PROMPT=$'%F{$THEME_RED}%n %F{$THEME_YELLOW}%~ ${vcs_info_msg_0_}\n%F{$THEME_FG%} '
+PROMPT=$'%F{$THEME_RED}%n %F{$THEME_YELLOW}%~ ${vcs_info_msg_0_}\n%F{$THEME_500%} '

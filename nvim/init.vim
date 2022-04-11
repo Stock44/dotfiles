@@ -5,7 +5,7 @@ if $TERM == "xterm-kitty"
 	let g:lightline = {
 				\ 'colorscheme': 'monokai_lightline',
 				\}
-	autocmd VimLeavePre * :silent !kitty @ --to=$KITTY_LISTEN_ON set-spacing padding-h=32 padding-v=16 
+	autocmd VimLeavePre * :silent !kitty @ --to=$KITTY_LISTEN_ON set-spacing padding-h=16 padding-v=8 
 endif
 
 " Show line numbers
