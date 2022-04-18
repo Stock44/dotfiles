@@ -131,6 +131,61 @@
            )),
         ),
 
+        // LAYOUT 3
+        (
+            name: "root_progress",
+            parent: "",
+            hook: Hook(parent_anchor: BR, self_anchor: BR),
+            offset: Vec2(x: -16.0, y: -64.0),
+            render_criteria: [Progress],
+            // https://github.com/Toqozz/wired-notify/wiki/NotificationBlock
+            params: NotificationBlock((
+                monitor: 0,
+                border_width: 3.0,
+                border_rounding: 3.0,
+                background_color: Color(hex: "#282828"),
+                border_color: Color(hex: "#ebdbb2"),
+                border_color_low: Color(hex: "#282828"),
+                border_color_critical: Color(hex: "#fb4934"),
+                border_color_paused: Color(hex: "#fabd2f"),
+
+                gap: Vec2(x: 0.0, y: 8.0),
+                notification_hook: Hook(parent_anchor: BL, self_anchor: TL),
+          )),
+        ),
+
+        (
+            name: "progress_title",
+            parent: "root_progress",
+            hook: Hook(parent_anchor: TL, self_anchor: TL),
+            offset: Vec2(x: 8.0, y: 8.0),
+            params: TextBlock((
+            	text: "%s",
+            	font: "BlexMono Nerd Font 12",
+            	ellipsize: Middle,
+            	color: Color(hex: "#F7F7F7"),
+            	padding: Padding(left: 0.0, right: 0.0, top: 0.0, bottom: 0.0),
+            	dimensions: (width: (min: 0, max: 100), height: (min: 0, max: 100)),
+            )),
+        ),
+
+        (
+            name: "progress_bar",
+            parent: "progress_title",
+            hook: Hook(parent_anchor: BL, self_anchor: BL),
+            offset: Vec2(x: 0.0, y: 16.0),
+            params: ProgressBlock((
+                border_width: 1.0,
+                border_rounding: 1.0,
+                fill_rounding: 1.0,
+                border_color: Color(hex: "#DFDFDF"),
+                background_color: Color(hex: "#2A2A2A"),
+                fill_color: Color(hex: "#FF6B6B"),
+                width: 256.0,
+                height: 16.0,
+            	padding: Padding(left: 0.0, right: 0.0, top: 0.0, bottom: 0.0),
+            )),
+        ),
 
         // Layout 2, when no image is present. ------------------------------------------
         (
@@ -138,7 +193,7 @@
             parent: "",
             hook: Hook(parent_anchor: BR, self_anchor: BR),
             offset: Vec2(x: -24.0, y: -56.0),
-            render_anti_criteria: [HintImage],
+            render_anti_criteria: [HintImage, Progress],
             // https://github.com/Toqozz/wired-notify/wiki/NotificationBlock
             params: NotificationBlock((
                 monitor: 0,
@@ -225,6 +280,8 @@
                 rhs_dist: 35.0,
             )),
         ),
+
+        
     ],
 
     // https://github.com/Toqozz/wired-notify/wiki/Shortcuts

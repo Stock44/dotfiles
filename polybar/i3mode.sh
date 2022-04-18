@@ -4,7 +4,7 @@ render_mode_section()
    MODE=$1 
 
    if [ "$MODE" = "default" ]; then
-       MODE="default"
+       MODE="normal"
        COLOR=$THEME_BLUE
    elif [ "$MODE" = "resize" ]; then
        COLOR=$THEME_RED
