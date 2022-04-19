@@ -30,7 +30,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start rofi as program launcher
-bindsym $mod+space exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -i'
+bindsym $mod+space exec --no-startup-id rofi -show drun
 
 # change focus
 bindsym $mod+h focus left
