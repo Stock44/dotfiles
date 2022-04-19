@@ -7,8 +7,10 @@ do
         TITLE=$(xprop -id $WIN_ID WM_NAME | perl -ne '/"([^"]+)"/ && print $1' | cut -b1-50)
         if [ -n "$CLASS" ]; then
             printf "%%{B%s}%%{F%s}  %s %%{F%s}%s  \n" $THEME_900 $THEME_RED "$CLASS" $THEME_50 "$TITLE"
-            else
+        elif [ -e "$TITLE" ]; then
             printf "%%{B%s}%%{F%s}  %s  \n" $THEME_900 $THEME_50 "$TITLE"
+        else
+            printf ""
         fi
     else 
        echo 
