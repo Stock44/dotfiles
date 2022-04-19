@@ -1,0 +1,146 @@
+/**
+ * rofi -dump-theme output.
+ * Rofi version: 1.7.0
+ **/
+* {
+	theme-bg: #212121;
+	theme-fg: #DEDEDE;
+	theme-green: #CAEE81;
+	theme-red: #FF6B6B;
+	theme-orange: #FFC65C;
+	theme-yellow: #FFF48A;
+	theme-blue: #9CEFFF;
+	theme-purple: #C19EFF;
+    red:                         rgba ( 220, 50, 47, 100 % );
+    selected-active-foreground:  var(background);
+    lightfg:                     rgba ( 88, 104, 117, 100 % );
+    separatorcolor:              var(foreground);
+    urgent-foreground:           var(red);
+    alternate-urgent-background: var(lightbg);
+    lightbg:                     rgba ( 238, 232, 213, 100 % );
+    background-color:            rgba ( 0, 0, 0, 0 % );
+    border-color:                var(foreground);
+    normal-background:           var(background);
+    selected-urgent-background:  var(red);
+    alternate-active-background: var(lightbg);
+    spacing:                     2;
+    blue:                        rgba ( 38, 139, 210, 100 % );
+    alternate-normal-foreground: var(foreground);
+    urgent-background:           var(background);
+    selected-normal-foreground:  var(lightbg);
+    active-foreground:           var(blue);
+    background:                  rgba ( 253, 246, 227, 100 % );
+    selected-active-background:  var(blue);
+    active-background:           var(background);
+    selected-normal-background:  var(lightfg);
+    alternate-normal-background: var(lightbg);
+    foreground:                  rgba ( 0, 43, 54, 100 % );
+    selected-urgent-foreground:  var(background);
+    normal-foreground:           var(foreground);
+    alternate-urgent-foreground: var(red);
+    alternate-active-foreground: var(blue);
+}
+
+window {
+    padding: 40% 35%;
+    width: 100%;
+    height: 100%;
+    background-color: #21212199;
+    border:           0;
+}
+mainbox {
+    padding: 20;
+    border-radius: 15;
+    background-color: var(theme-fg);
+    border:  0;
+}
+
+element {
+	padding: 5px;
+}
+
+element selected{
+	background-color: var(theme-bg);
+	border-radius: 5;
+}
+
+element-text selected{
+	text-color: var(theme-fg);
+}
+
+message {
+    padding:      1px ;
+    border-color: var(theme-fg);
+    border:       2px dash 0px 0px ;
+}
+textbox {
+    text-color: var(theme-fg);
+}
+listview {
+    padding:      2px 0px 0px ;
+    scrollbar:    true;
+    border-color: var(theme-fg);
+    spacing:      2px ;
+    fixed-height: 0;
+    border:       2px dash 0px 0px ;
+}
+scrollbar {
+    width:        4px ;
+    padding:      0;
+    handle-width: 8px ;
+    border:       0;
+    handle-color: var(theme-fg);
+}
+sidebar {
+    border-color: var(separatorcolor);
+    border:       2px dash 0px 0px ;
+}
+button {
+    cursor:     pointer;
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+button selected {
+    background-color: var(selected-normal-background);
+    text-color:       var(selected-normal-foreground);
+}
+num-filtered-rows {
+    expand:     false;
+    text-color: rgba ( 128, 128, 128, 100 % );
+}
+num-rows {
+    expand:     false;
+    text-color: rgba ( 128, 128, 128, 100 % );
+}
+textbox-num-sep {
+    expand:     false;
+    str:        "/";
+    text-color: rgba ( 128, 128, 128, 100 % );
+}
+inputbar {
+    padding:    1px ;
+    spacing:    0px ;
+    text-color: var(normal-foreground);
+    children:   [ prompt,textbox-prompt-colon,entry,num-filtered-rows,textbox-num-sep,num-rows,case-indicator ];
+}
+case-indicator {
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+entry {
+    text-color:        var(normal-foreground);
+    cursor:            text;
+    spacing:           0;
+    placeholder-color: rgba ( 128, 128, 128, 100 % );
+    placeholder:       "Type to filter";
+}
+prompt {
+    spacing:    0;
+    text-color: var(theme-red);
+}
+textbox-prompt-colon {
+    margin:     0px 0.3000em 0.0000em 0.0000em ;
+    expand:     false;
+    str:        ":";
+    text-color: inherit;
+}
