@@ -164,7 +164,7 @@ bindsym XF86MonBrightnessUp exec "xbacklight + 5"
 bindsym XF86MonBrightnessDown exec "xbacklight - 5"
 
 #Lock computer
-bindsym $mod+backslash exec "loginctl lock-session"
+bindsym $mod+backslash exec "xset s activate"
 
 # Zephyrus G14 Keyboard brightness
 bindsym XF86KbdBrightnessUp exec "asusctl -n"
