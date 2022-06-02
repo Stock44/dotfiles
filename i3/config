@@ -175,10 +175,10 @@ exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
 #exec_always --no-startup-id $HOME/.config/glava/launch_glava.sh
 exec_always --no-startup-id $HOME/.config/wired/launch_wired.sh
 exec_always --no-startup-id flashfocus
+exec_always --no-startup-id "feh --bg-fill ~/Pictures/theme_bg.jpg"
 
 exec --no-startup-id "xss-lock ~/.config/i3/lock.sh"
 exec --no-startup-id "picom"
-exec --no-startup-id "feh --bg-fill ~/Pictures/theme_bg.jpg"
 
 # border colors
 for_window [class=".*"] border pixel 0
