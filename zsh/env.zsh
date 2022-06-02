@@ -3,7 +3,6 @@ export ZDOTDIR=$HOME/.config/zsh
 
 # Editor variable
 export EDITOR=nvim
-echo zshenv loaded
 
 # XDG env variables
 export XDG_RUNTIME_DIR="/run/user/$UID"

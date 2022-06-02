@@ -6,9 +6,9 @@ SWD=$(pwd)
 cd $ZDOTDIR
 
 # Load plugins
-source plugins/zsh-z/zsh-z.plugin.zsh
-source plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/z/z.sh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Load zsh functions
 autoload -U compinit && compinit
@@ -22,9 +22,6 @@ export BAT_THEME
 
 # source aliases
 source aliases.zsh
-
-# Source plugin autoupdater script
-source plugin_updater.zsh
 
 # Activate shell history
 setopt inc_append_history share_history
