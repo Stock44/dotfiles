@@ -9,6 +9,7 @@ cd $ZDOTDIR
 source /usr/share/z/z.sh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # Load zsh functions
 autoload -U compinit && compinit
@@ -17,6 +18,10 @@ autoload -U compinit && compinit
 source themes/syntax_highlighting.zsh
 source themes/prompt.zsh
 source themes/exa.zsh
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
 BAT_THEME="Monokai Extended"
 export BAT_THEME
 
