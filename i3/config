@@ -20,6 +20,15 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioStop exec playerctl stop
 
+# Brightness commands
+bindsym XF86MonBrightnessUp exec "brightnessctl s +10%"
+bindsym XF86MonBrightnessDown exec "brightnessctl s 10%-"
+
+# Zephyrus G14 Keyboard brightness
+bindsym XF86KbdBrightnessUp exec "asusctl -n"
+bindsym XF86KbdBrightnessDown exec "asusctl -p"
+
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -159,16 +168,10 @@ bindsym $mod+r mode "resize"
 bindsym $mod+b split horizontal
 bindsym $mod+v split vertical
 
-# Brightness commands
-bindsym XF86MonBrightnessUp exec "xbacklight + 5"
-bindsym XF86MonBrightnessDown exec "xbacklight - 5"
+
 
 #Lock computer
 bindsym $mod+backslash exec "xset s activate"
-
-# Zephyrus G14 Keyboard brightness
-bindsym XF86KbdBrightnessUp exec "asusctl -n"
-bindsym XF86KbdBrightnessDown exec "asusctl -p"
 
 # Commands to execute at startup
 exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
