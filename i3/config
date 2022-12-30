@@ -162,6 +162,8 @@ for_window [class="XAVA"] floating enable
 for_window [class="zoom"] floating enable
 for_window [class="zoom" title="Zoom Meeting"] floating disable
 for_window [class="zoom" title="Zoom - Free Account"] floating disable
+for_window [class="gnome-screenshot"] floating enable
+for_window [class="Gnome-screenshot"] floating enable
 
 bindsym $mod+r mode "resize"
 
