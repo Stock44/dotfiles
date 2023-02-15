@@ -8,6 +8,9 @@ export EDITOR=nvim
 export XDG_RUNTIME_DIR="/run/user/$UID"
 export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
+# pyenv
+export PYENV_ROOT=$HOME/.pyenv
+
 # Theme color codes
 export THEME_GREEN="#CAEE81"
 export THEME_RED="#FF6B6B"
