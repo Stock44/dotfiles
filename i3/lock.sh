@@ -1,14 +1,14 @@
 #!/bin/sh
 
 [[ (-n "pidof i3lock") ]] && i3lock \
---color=$THEME_200 \
---insidever-color=$THEME_1000   \
+--color=$THEME_1100 \
+--insidever-color=$THEME_1100   \
 --ringver-color=$THEME_ORANGE     \
 \
---insidewrong-color=$THEME_1000 \
+--insidewrong-color=$THEME_1100 \
 --ringwrong-color=$THEME_RED   \
 \
---inside-color=$THEME_1000      \
+--inside-color=$THEME_1100      \
 --ring-color=$THEME_1000      \
 --line-color=$THEME_1000        \
 --separator-color=$THEME_1000   \
