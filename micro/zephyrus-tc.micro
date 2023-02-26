@@ -1,7 +1,0 @@
-color-link comment "#545454"      # Theme gray
-color-link identifier "#CAEE81"   # Theme green
-color-link constant "#FFF48A"     # Theme yellow
-color-link statement "#FF6B6B"    # Theme red
-color-link symbol "#C19EFF"       # Theme purple
-color-link preproc "#9CEFFF"      # Theme blue
-color-link type "#9CEFFF"         # Theme green
