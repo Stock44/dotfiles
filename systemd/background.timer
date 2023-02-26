@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the background changer every 5 minutes
+
+[Timer]
+OnUnitActiveSec=5min
+Unit=background.service
+
+[Install]
+WantedBy=timers.target

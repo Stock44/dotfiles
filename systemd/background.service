@@ -1,0 +1,9 @@
+[Unit]
+Description=Update the desktops background on all monitors
+
+[Service]
+Type=simple
+ExecStart=/home/hiram/.config/i3/random_bg.sh
+
+[Install]
+WantedBy=default.target
