@@ -170,8 +170,6 @@ bindsym $mod+r mode "resize"
 bindsym $mod+b split horizontal
 bindsym $mod+v split vertical
 
-
-
 #Lock computer
 bindsym $mod+backslash exec "xset s activate"
 
@@ -184,7 +182,6 @@ exec_always --no-startup-id "$HOME/.config/i3/random_bg.sh"
 
 exec --no-startup-id "xss-lock $HOME/.config/i3/lock.sh"
 exec --no-startup-id "picom"
-
 # border colors
 for_window [class=".*"] border pixel 0
 
@@ -195,7 +192,9 @@ for_window [title="Vivaldi Settings*"] floating enable
 
 # Add gaps
 gaps inner 16
-gaps bottom 40
+gaps bottom 48
+
+bindsym $mod+o gaps inner all toggle 16; gaps bottom all toggle 48
 
 # Bind the compose key to the menu key
 exec --no-startup-id "setxkbmap -option compose:menu"
