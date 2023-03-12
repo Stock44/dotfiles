@@ -2,222 +2,727 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1255.9999"
-   height="640.48492"
-   viewBox="0 0 332.31664 169.46164"
+   width="1608"
+   height="448"
+   viewBox="0 0 425.45001 118.53334"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="graphics.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview7"
-     pagecolor="#ffffff"
+     pagecolor="#1c1c1c"
      bordercolor="#111111"
-     borderopacity="1"
+     borderopacity="0"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="false"
      inkscape:document-units="px"
      showgrid="true"
      inkscape:snap-object-midpoints="true"
-     inkscape:zoom="0.99566971"
-     inkscape:cx="709.57265"
-     inkscape:cy="305.82431"
-     inkscape:window-width="2560"
-     inkscape:window-height="1080"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:zoom="0.7613926"
+     inkscape:cx="726.95742"
+     inkscape:cy="205.54442"
+     inkscape:window-width="2024"
+     inkscape:window-height="1000"
+     inkscape:window-x="1936"
+     inkscape:window-y="16"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      fit-margin-left="16"
      fit-margin-right="16"
      fit-margin-top="16"
      fit-margin-bottom="16"
-     units="px">
+     units="px"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#2a2a2a"
+     showborder="false"
+     showguides="false"
+     borderlayer="false">
     <inkscape:grid
        type="xygrid"
        id="grid846"
        empspacing="8"
-       originx="-4.2333366"
-       originy="-4.2333272" />
+       originx="-8.4666697"
+       originy="-8.466661"
+       visible="false" />
+    <sodipodi:guide
+       position="8.4666666,182.16163"
+       orientation="-1,0"
+       id="guide12677"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
   </sodipodi:namedview>
   <defs
-     id="defs2" />
+     id="defs2">
+    <linearGradient
+       id="50-6">
+      <stop
+         style="stop-color:#f7f7f7;stop-opacity:1;"
+         offset="0"
+         id="stop1044" />
+    </linearGradient>
+    <linearGradient
+       id="50"
+       inkscape:swatch="solid"
+       gradientTransform="translate(1.090653,-4.1751001)">
+      <stop
+         style="stop-color:#f7f7f7;stop-opacity:1;"
+         offset="0"
+         id="stop1038" />
+    </linearGradient>
+    <linearGradient
+       id="100"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#e1e1e1;stop-opacity:1;"
+         offset="0"
+         id="stop1032" />
+    </linearGradient>
+    <linearGradient
+       id="200"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop1026" />
+    </linearGradient>
+    <linearGradient
+       id="300"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#b9b9b9;stop-opacity:1;"
+         offset="0"
+         id="stop1020" />
+    </linearGradient>
+    <linearGradient
+       id="400-7"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#a5a5a5;stop-opacity:1;"
+         offset="0"
+         id="stop1014" />
+    </linearGradient>
+    <linearGradient
+       id="400a">
+      <stop
+         style="stop-color:#a5a5a5;stop-opacity:1;"
+         offset="0"
+         id="stop15251" />
+    </linearGradient>
+    <linearGradient
+       id="4001">
+      <stop
+         style="stop-color:#a5a5a5;stop-opacity:1;"
+         offset="0"
+         id="stop15185" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient15181">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop15179" />
+    </linearGradient>
+    <linearGradient
+       id="500"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#939393;stop-opacity:1;"
+         offset="0"
+         id="stop15173" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient15146">
+      <stop
+         style="stop-color:#a5a5a5;stop-opacity:1;"
+         offset="0"
+         id="stop15144" />
+    </linearGradient>
+    <linearGradient
+       id="400">
+      <stop
+         style="stop-color:#939393;stop-opacity:1;"
+         offset="0"
+         id="stop15138" />
+    </linearGradient>
+    <linearGradient
+       id="600"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#808080;stop-opacity:1;"
+         offset="0"
+         id="stop15132" />
+    </linearGradient>
+    <linearGradient
+       id="700"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#6d6d6d;stop-opacity:1;"
+         offset="0"
+         id="stop14400" />
+    </linearGradient>
+    <linearGradient
+       id="800"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#5a5a5a;stop-opacity:1;"
+         offset="0"
+         id="stop14394" />
+    </linearGradient>
+    <linearGradient
+       id="900"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#444444;stop-opacity:1;"
+         offset="0"
+         id="stop14388" />
+    </linearGradient>
+    <linearGradient
+       id="1000"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#2a2a2a;stop-opacity:1;"
+         offset="0"
+         id="stop12930" />
+    </linearGradient>
+    <linearGradient
+       id="1100"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#1c1c1c;stop-opacity:1;"
+         offset="0"
+         id="stop12918" />
+    </linearGradient>
+    <linearGradient
+       id="yellow-dark"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933342,112.18333)">
+      <stop
+         style="stop-color:#ccbb27;stop-opacity:1;"
+         offset="0"
+         id="stop4493" />
+    </linearGradient>
+    <linearGradient
+       id="purple-dark"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933328,112.18333)">
+      <stop
+         style="stop-color:#9768eb;stop-opacity:1;"
+         offset="0"
+         id="stop4487" />
+    </linearGradient>
+    <linearGradient
+       id="orange-dark"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933343,112.18333)">
+      <stop
+         style="stop-color:#e49e1d;stop-opacity:1;"
+         offset="0"
+         id="stop4481" />
+    </linearGradient>
+    <linearGradient
+       id="green-dark"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933344,112.18333)">
+      <stop
+         style="stop-color:#86b131;stop-opacity:1;"
+         offset="0"
+         id="stop4475" />
+    </linearGradient>
+    <linearGradient
+       id="blue-dark"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933341,112.18333)">
+      <stop
+         style="stop-color:#3ec8e2;stop-opacity:1;"
+         offset="0"
+         id="stop4469" />
+    </linearGradient>
+    <linearGradient
+       id="red-dark"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933342,112.18333)">
+      <stop
+         style="stop-color:#e53636;stop-opacity:1;"
+         offset="0"
+         id="stop4463" />
+    </linearGradient>
+    <linearGradient
+       id="yellow"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933342,112.18333)">
+      <stop
+         style="stop-color:#fff48a;stop-opacity:1;"
+         offset="0"
+         id="stop4457" />
+    </linearGradient>
+    <linearGradient
+       id="purple"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933343,112.18333)">
+      <stop
+         style="stop-color:#c19eff;stop-opacity:1;"
+         offset="0"
+         id="stop4451" />
+    </linearGradient>
+    <linearGradient
+       id="orange"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933328,112.18333)">
+      <stop
+         style="stop-color:#ffc65c;stop-opacity:1;"
+         offset="0"
+         id="stop4445" />
+    </linearGradient>
+    <linearGradient
+       id="green"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.933329,112.18333)">
+      <stop
+         style="stop-color:#caee81;stop-opacity:1;"
+         offset="0"
+         id="stop4439" />
+    </linearGradient>
+    <linearGradient
+       id="blue"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.93333,112.18333)">
+      <stop
+         style="stop-color:#9cefff;stop-opacity:1;"
+         offset="0"
+         id="stop4433" />
+    </linearGradient>
+    <linearGradient
+       id="red"
+       inkscape:swatch="solid"
+       gradientTransform="translate(16.93333,112.18333)">
+      <stop
+         style="stop-color:#ff6b6b;stop-opacity:1;"
+         offset="0"
+         id="stop4427" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red"
+       id="linearGradient4431"
+       x1="10.583334"
+       y1="29.633335"
+       x2="19.049999"
+       y2="29.633335"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166665)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#blue"
+       id="linearGradient4437"
+       x1="27.516668"
+       y1="29.633337"
+       x2="35.983334"
+       y2="29.633337"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166685)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#green"
+       id="linearGradient4443"
+       x1="44.450001"
+       y1="29.633337"
+       x2="52.916668"
+       y2="29.633337"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166652)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#orange"
+       id="linearGradient4449"
+       x1="61.383335"
+       y1="29.633335"
+       x2="69.849998"
+       y2="29.633335"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166644)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#purple"
+       id="linearGradient4455"
+       x1="78.316666"
+       y1="29.633337"
+       x2="86.783333"
+       y2="29.633337"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166724)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#yellow"
+       id="linearGradient4461"
+       x1="95.25"
+       y1="29.633337"
+       x2="103.71667"
+       y2="29.633337"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166654)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red-dark"
+       id="linearGradient4467"
+       x1="10.583331"
+       y1="46.566669"
+       x2="19.049997"
+       y2="46.566669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166692)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#blue-dark"
+       id="linearGradient4473"
+       x1="27.516668"
+       y1="46.566669"
+       x2="35.983334"
+       y2="46.566669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166654)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#green-dark"
+       id="linearGradient4479"
+       x1="44.450001"
+       y1="46.566669"
+       x2="52.916668"
+       y2="46.566669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166666)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#orange-dark"
+       id="linearGradient4485"
+       x1="61.383335"
+       y1="46.566669"
+       x2="69.849998"
+       y2="46.566669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166659)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#purple-dark"
+       id="linearGradient4491"
+       x1="78.316666"
+       y1="46.566669"
+       x2="86.783333"
+       y2="46.566669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166691)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#yellow-dark"
+       id="linearGradient4497"
+       x1="95.25"
+       y1="46.566669"
+       x2="103.71667"
+       y2="46.566669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.1166684)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#1100"
+       id="linearGradient12922"
+       x1="50.799995"
+       y1="-135.46667"
+       x2="59.266663"
+       y2="-135.46667"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12828142,-0.12828852)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#1000"
+       id="linearGradient12934"
+       x1="67.73333"
+       y1="-135.46671"
+       x2="76.199997"
+       y2="-135.46671"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12828142,-0.12828852)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#900"
+       id="linearGradient14392"
+       x1="84.666664"
+       y1="-135.46671"
+       x2="93.133331"
+       y2="-135.46671"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12828142,-0.12828852)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#800"
+       id="linearGradient14398"
+       x1="101.6"
+       y1="-135.46671"
+       x2="110.06666"
+       y2="-135.46671"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12828142,-0.12828852)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#700"
+       id="linearGradient14404"
+       x1="118.53333"
+       y1="-135.46671"
+       x2="127"
+       y2="-135.46671"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12828142,-0.12828852)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#600"
+       id="linearGradient15136"
+       x1="135.46663"
+       y1="-135.46671"
+       x2="143.93338"
+       y2="-135.46671"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12828142,-0.12828852)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#500"
+       id="linearGradient15177"
+       x1="50.799995"
+       y1="-179.91666"
+       x2="59.266663"
+       y2="-179.91666"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.03125,0,0,1.03125,-1.8480746,5.494098)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#400-7"
+       id="linearGradient1018"
+       x1="67.73333"
+       y1="-180.04494"
+       x2="76.199997"
+       y2="-180.04494"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.1282854,-1.6069566e-5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#300"
+       id="linearGradient1024"
+       x1="84.666664"
+       y1="-180.04494"
+       x2="93.133331"
+       y2="-180.04494"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12828609,-1.6069566e-5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#200"
+       id="linearGradient1030"
+       x1="101.59998"
+       y1="-180.04494"
+       x2="110.06665"
+       y2="-180.04494"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12827152,-1.6069566e-5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#100"
+       id="linearGradient1036"
+       x1="118.53331"
+       y1="-180.04494"
+       x2="126.99998"
+       y2="-180.04494"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12826457,-1.6069566e-5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#50"
+       id="linearGradient1042"
+       x1="135.46667"
+       y1="-180.04494"
+       x2="143.93333"
+       y2="-180.04494"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.12829577,-1.6069566e-5)" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-4.2333325,-4.2333281)">
+     transform="translate(-8.4666659,-8.4666615)">
     <g
        id="g2843"
-       transform="translate(4.2333327,-8.4666682)"
-       inkscape:export-filename="/home/hiram/Projects/dotfiles/design/palette.png"
+       transform="translate(207.43333,23.283332)"
+       inkscape:export-filename="colors.png"
        inkscape:export-xdpi="153.59996"
        inkscape:export-ydpi="153.59996">
       <rect
-         style="fill:#3d3d3d;fill-opacity:1;stroke:none;stroke-width:1.75682;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#1000);fill-opacity:1;stroke:none;stroke-width:1.79161;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect2393"
-         width="105.83334"
+         width="110.06667"
          height="42.333344"
          x="4.2333331"
          y="16.933331"
-         rx="2.1166725"
+         rx="2.2013392"
          ry="2.1166725" />
       <rect
-         style="fill:#ff6b6b;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4431);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848"
          width="8.4666662"
          height="8.4666662"
-         x="10.583334"
-         y="25.400002"
+         x="12.7"
+         y="25.399996"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#9cefff;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4437);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7"
          width="8.4666662"
          height="8.4666662"
-         x="27.516668"
-         y="25.400003"
+         x="29.633333"
+         y="25.399996"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#caee81;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4443);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8"
          width="8.4666662"
          height="8.4666662"
-         x="44.450001"
+         x="46.566666"
          y="25.400003"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#ffc65c;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4449);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6"
          width="8.4666662"
          height="8.4666662"
-         x="61.383335"
+         x="63.5"
          y="25.400002"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#c19eff;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4455);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8"
          width="8.4666662"
          height="8.4666662"
-         x="78.316666"
+         x="80.433334"
          y="25.400003"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#fff48a;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4461);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-8"
          width="8.4666662"
          height="8.4666662"
-         x="95.25"
+         x="97.366669"
          y="25.400003"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#e53636;fill-opacity:1;stroke:none;stroke-width:0.206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4467);fill-opacity:1;stroke:none;stroke-width:0.206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-8"
          width="8.4666662"
          height="8.4666662"
-         x="10.583331"
+         x="12.7"
          y="42.333336"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#3ec8e2;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4473);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-5"
          width="8.4666662"
          height="8.4666662"
-         x="27.516668"
+         x="29.633333"
          y="42.333336"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#86b131;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4479);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-0"
          width="8.4666662"
          height="8.4666662"
-         x="44.450001"
+         x="46.566666"
          y="42.333336"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#e49e1d;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4485);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-9"
          width="8.4666662"
          height="8.4666662"
-         x="61.383335"
+         x="63.5"
          y="42.333336"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#9768eb;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4491);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-6"
          width="8.4666662"
          height="8.4666662"
-         x="78.316666"
+         x="80.433334"
          y="42.333336"
          rx="1.0583332"
          ry="1.0583334" />
       <rect
-         style="fill:#ccbb27;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient4497);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-8-3"
          width="8.4666662"
          height="8.4666662"
-         x="95.25"
+         x="97.366669"
          y="42.333336"
          rx="1.0583332"
          ry="1.0583334" />
     </g>
     <g
-       id="g91525"
-       transform="translate(-4.2333414)"
-       inkscape:export-filename="/home/hiram/Projects/dotfiles/design/header.png"
-       inkscape:export-xdpi="256"
-       inkscape:export-ydpi="256">
+       id="g2818"
+       inkscape:export-filename="header.png"
+       inkscape:export-xdpi="153.59996"
+       inkscape:export-ydpi="153.59996">
       <rect
-         style="fill:#3d3d3d;fill-opacity:1;stroke:none;stroke-width:1.91484;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#1000);fill-opacity:1;stroke:none;stroke-width:1.86999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect2393-0"
-         width="209.54999"
-         height="25.4"
-         x="127"
-         y="8.4666615"
-         rx="2.3544919"
-         ry="2.1166646"
+         width="218.01668"
+         height="23.283335"
+         x="211.66667"
+         y="12.699995"
+         rx="2.4496231"
+         ry="1.940276"
          inkscape:export-filename="/home/hiram/Projects/dotfiles/design/header.png"
          inkscape:export-xdpi="360"
          inkscape:export-ydpi="360" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:9.49663px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.294635"
-         x="133.56212"
-         y="24.273382"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.294635"
+         x="217.72107"
+         y="27.754601"
          id="text16600"
          transform="scale(1.0072411,0.99281095)"><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.49663px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';stroke-width:0.294635"
-           x="133.56212"
-           y="24.273382"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.294635"
+           x="217.72107"
+           y="27.754601"
            id="tspan263913"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.49663px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#ff6b6b;fill-opacity:1;stroke-width:0.294635"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#red);fill-opacity:1;stroke-width:0.294635"
    id="tspan30373">hiram</tspan> <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#fff48a;fill-opacity:1;stroke-width:0.294635"
-   id="tspan51390">~/dotfiles <tspan
-   style="fill:#ff6b6b;fill-opacity:1;stroke-width:0.294635"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fff48a;fill-opacity:1;stroke-width:0.294635"
+   id="tspan51390"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#yellow)"
+   id="tspan11887">~/dotfiles</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#red);fill-opacity:1;stroke-width:0.294635"
    id="tspan67364">branch</tspan> <tspan
-   style="fill:#ffc65c;fill-opacity:1;stroke-width:0.294635"
-   id="tspan88520">main ●</tspan> <tspan
-   style="fill:#caee81;fill-opacity:1;stroke-width:0.294635"
-   id="tspan78760">●</tspan> <tspan
-   style="fill:#ff6b6b;fill-opacity:1;stroke-width:0.294635"
-   id="tspan80844">●</tspan> </tspan></tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#orange)"
+   id="tspan11901">main</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#orange)"
+   id="tspan11905">●</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#green)"
+   id="tspan11907">✚</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#red)"
+   id="tspan11909">●</tspan> </tspan></tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -231,269 +736,270 @@
          x="139.69998"
          y="55.033333" /></text>
     <g
-       id="g246369"
-       inkscape:export-filename="/home/hiram/Projects/dotfiles/design/extended-palette.png"
-       inkscape:export-xdpi="118.15385"
-       inkscape:export-ydpi="118.15385"
-       transform="translate(-101.6,21.166681)">
+       id="g12791"
+       transform="translate(4.233337,-42.333333)"
+       inkscape:export-filename="palette.png"
+       inkscape:export-xdpi="153.59996"
+       inkscape:export-ydpi="153.59996">
       <rect
-         style="fill:#3d3d3d;fill-opacity:1;stroke:none;stroke-width:2.68738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#1000);fill-opacity:1;stroke:none;stroke-width:2.68738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect2393-0-8"
          width="95.249992"
          height="110.06667"
-         x="120.77828"
-         y="38.228275"
+         x="8.4666624"
+         y="55.033329"
          rx="1.4653847"
          ry="2.201333" />
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-         x="184.0562"
-         y="137.51295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="71.876358"
+         y="154.29088"
          id="text131620-6-1-1-0-8-8"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-8-4-8-9"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-           x="184.0562"
-           y="137.51295">#CCBB27</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+           x="71.876358"
+           y="154.29088">#CCBB27</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-         x="139.60297"
-         y="52.916656"
-         id="text131620"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252645"
+         x="27.433044"
+         y="69.540588"
+         id="text131620"
+         transform="scale(0.99975776,1.0002423)"><tspan
            sodipodi:role="line"
            id="tspan131618"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-           x="139.60297"
-           y="52.916656">#FF6B6B</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252645"
+           x="27.433044"
+           y="69.540588">#FF6B6B</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-         x="139.60297"
-         y="69.849991"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="27.426355"
+         y="86.557549"
          id="text131620-6"><tspan
            sodipodi:role="line"
            id="tspan131618-2"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-           x="139.60297"
-           y="69.849991">#9CEFFF</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+           x="27.426355"
+           y="86.557549">#9CEFFF</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-         x="139.60297"
-         y="86.783325"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="27.426355"
+         y="103.49088"
          id="text131620-6-1"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-           x="139.60297"
-           y="86.783325">#CAEE81</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+           x="27.426355"
+           y="103.49088">#CAEE81</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-         x="139.60297"
-         y="103.71665"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="27.426355"
+         y="120.42422"
          id="text131620-6-1-8"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-5"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-           x="139.60297"
-           y="103.71665">#FFC65C</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+           x="27.426355"
+           y="120.42422">#FFC65C</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-         x="139.60297"
-         y="120.64999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="27.426355"
+         y="137.35754"
          id="text131620-6-1-7"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-4"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-           x="139.60297"
-           y="120.64999">#C19EFF</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+           x="27.426355"
+           y="137.35754">#C19EFF</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-         x="139.60297"
-         y="137.58333"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="27.426355"
+         y="154.29088"
          id="text131620-6-1-1"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-8"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.252706"
-           x="139.60297"
-           y="137.58333">#FFF48A</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+           x="27.426355"
+           y="154.29088">#FFF48A</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-         x="184.0562"
-         y="52.846298"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="71.87635"
+         y="69.624214"
          id="text131620-6-1-6"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-43"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-           x="184.0562"
-           y="52.846298">#E53636</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+           x="71.87635"
+           y="69.624214">#E53636</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-         x="184.0562"
-         y="69.779633"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="71.87635"
+         y="86.557549"
          id="text131620-6-1-8-3"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-5-3"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-           x="184.0562"
-           y="69.779633">#3EC8E2</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+           x="71.87635"
+           y="86.557549">#3EC8E2</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-         x="184.0562"
-         y="86.712959"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="71.876358"
+         y="103.49088"
          id="text131620-6-1-7-8"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-4-6"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-           x="184.0562"
-           y="86.712959">#86B131</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+           x="71.876358"
+           y="103.49088">#86B131</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-         x="184.0562"
-         y="103.64629"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="71.876358"
+         y="120.42422"
          id="text131620-6-1-1-0"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-8-4"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-           x="184.0562"
-           y="103.64629">#E49E1D</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+           x="71.876358"
+           y="120.42422">#E49E1D</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-         x="184.0562"
-         y="120.57963"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="71.876358"
+         y="137.35754"
          id="text131620-6-1-1-0-8"><tspan
            sodipodi:role="line"
            id="tspan131618-2-7-8-4-8"
-           style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.244306"
-           x="184.0562"
-           y="120.57963">#9768EB</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+           x="71.876358"
+           y="137.35754">#9768EB</tspan></text>
       <rect
-         style="fill:#e53636;fill-opacity:1;stroke:none;stroke-width:0.206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#red-dark);fill-opacity:1;stroke:none;stroke-width:0.206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-8-5"
          width="8.4666662"
          height="8.4666662"
-         x="46.566654"
-         y="-182.03333"
+         x="63.499996"
+         y="-69.849998"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#3ec8e2;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#blue-dark);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-5-9"
          width="8.4666662"
          height="8.4666662"
-         x="63.499989"
-         y="-182.03333"
+         x="80.433334"
+         y="-69.849998"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#86b131;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#green-dark);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-0-7"
          width="8.4666662"
          height="8.4666662"
-         x="80.433319"
-         y="-182.03333"
+         x="97.366661"
+         y="-69.849998"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#e49e1d;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#orange-dark);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-9-5"
          width="8.4666662"
          height="8.4666662"
-         x="97.366653"
-         y="-182.03333"
+         x="114.3"
+         y="-69.849998"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#9768eb;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#purple-dark);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-6-3"
          width="8.4666662"
          height="8.4666662"
-         x="114.3"
-         y="-182.03333"
+         x="131.23334"
+         y="-69.849998"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#ccbb27;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#yellow-dark);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-8-3-8"
          width="8.4666662"
          height="8.4666662"
-         x="131.23332"
-         y="-182.03333"
+         x="148.16666"
+         y="-69.849998"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#ff6b6b;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#red);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-76"
          width="8.4666662"
          height="8.4666662"
-         x="46.566666"
-         y="-137.58333"
+         x="63.499996"
+         y="-25.400003"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#9cefff;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#blue);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-3"
          width="8.4666662"
          height="8.4666662"
-         x="63.5"
-         y="-137.58333"
+         x="80.433334"
+         y="-25.400003"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#caee81;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#green);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-1"
          width="8.4666662"
          height="8.4666662"
-         x="80.433334"
-         y="-137.58333"
+         x="97.366661"
+         y="-25.400003"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#ffc65c;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#orange);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-7"
          width="8.4666662"
          height="8.4666662"
-         x="97.366669"
-         y="-137.58333"
+         x="114.3"
+         y="-25.400003"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#c19eff;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#purple);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-5"
          width="8.4666662"
          height="8.4666662"
-         x="114.29999"
-         y="-137.58333"
+         x="131.23334"
+         y="-25.400003"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#fff48a;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#yellow);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-8-9"
          width="8.4666662"
          height="8.4666662"
-         x="131.23332"
-         y="-137.58333"
+         x="148.16666"
+         y="-25.400003"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
@@ -502,250 +1008,260 @@
        id="g91525-9"
        transform="translate(1.0000065e-7,33.866672)" />
     <g
-       id="g21584"
-       inkscape:export-filename="/home/hiram/Projects/dotfiles/design/grayscale-palette.png"
-       inkscape:export-xdpi="139.63637"
-       inkscape:export-ydpi="139.63637"
-       transform="translate(103.84495,-17.061617)">
+       id="g2794"
+       transform="translate(-10.711617,-29.505052)"
+       inkscape:export-filename="greyscale-palette.png"
+       inkscape:export-xdpi="153.59996"
+       inkscape:export-ydpi="153.59996">
       <rect
-         style="fill:#3d3d3d;fill-opacity:1;stroke:none;stroke-width:2.68738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#1000);fill-opacity:1;stroke:none;stroke-width:2.68738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect2393-0-8-1"
          width="95.25"
          height="110.06667"
-         x="19.050003"
-         y="59.266666"
+         x="122.89495"
+         y="42.205048"
          rx="1.4653847"
          ry="2.201333" />
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-         x="37.874683"
-         y="90.88839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="141.85466"
+         y="90.594872"
          id="text131620-3"><tspan
            sodipodi:role="line"
-           id="tspan131618-1"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-           x="37.874683"
-           y="90.88839">#3D3D3D</tspan></text>
+           id="tspan12898"
+           x="141.85466"
+           y="90.594872">#444444</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-         x="37.874683"
-         y="107.82172"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="141.85466"
+         y="107.5282"
          id="text131620-6-9"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-4"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-           x="37.874683"
-           y="107.82172">#4A4A4A</tspan></text>
+           id="tspan12900"
+           x="141.85466"
+           y="107.5282">#5A5A5A</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-         x="37.874683"
-         y="124.75506"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="141.85466"
+         y="124.46153"
          id="text131620-6-1-78"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-7-45"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-           x="37.874683"
-           y="124.75506">#5F5F5F</tspan></text>
+           id="tspan12902"
+           x="141.85466"
+           y="124.46153">#6D6D6D</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-         x="37.874683"
-         y="141.68837"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="141.85466"
+         y="141.4626"
          id="text131620-6-1-8-0"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-7-5-36"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-           x="37.874683"
-           y="141.68837">#6D6D6D</tspan></text>
+           id="tspan12904"
+           x="141.85466"
+           y="141.4626">#808080</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-         x="37.874683"
-         y="158.62172"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="186.30466"
+         y="56.795933"
          id="text131620-6-1-7-1"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-7-4-0"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-           x="37.874683"
-           y="158.62172">#878787</tspan></text>
+           id="tspan12906"
+           x="186.30466"
+           y="56.795933">#939393</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-         x="82.4562"
-         y="74.012978"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="186.30466"
+         y="73.661537"
          id="text131620-6-1-6-2"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-7-43-0"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-           x="82.4562"
-           y="74.012978">#A8A8A8</tspan></text>
+           id="tspan12908"
+           x="186.30466"
+           y="73.661537">#A5A5A5</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-         x="82.4562"
-         y="90.946312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="186.30466"
+         y="90.662605"
          id="text131620-6-1-8-3-6"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-7-5-3-1"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-           x="82.4562"
-           y="90.946312">#CACACA</tspan></text>
+           id="tspan12910"
+           x="186.30466"
+           y="90.662605">#B9B9B9</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-         x="82.4562"
-         y="107.87963"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="186.30466"
+         y="107.59593"
          id="text131620-6-1-7-8-5"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-7-4-6-5"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-           x="82.4562"
-           y="107.87963">#DFDFDF</tspan></text>
+           id="tspan12912"
+           x="186.30466"
+           y="107.59593">#CCCCCC</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-         x="82.4562"
-         y="124.81297"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="186.30466"
+         y="124.46153"
          id="text131620-6-1-1-0-4"><tspan
            sodipodi:role="line"
-           id="tspan131618-2-7-8-4-7"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-           x="82.4562"
-           y="124.81297">#E5E5E5</tspan></text>
+           id="tspan12914"
+           x="186.30466"
+           y="124.46153">#E1E1E1</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:5.86334px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-         x="82.4562"
-         y="141.74631"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.244306"
+         x="186.30466"
+         y="141.39487"
          id="text131620-6-1-1-0-8-6"><tspan
            sodipodi:role="line"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.244306"
-           x="82.4562"
-           y="141.74631"
-           id="tspan8479">#F7F7F7</tspan></text>
+           id="tspan12916"
+           x="186.30466"
+           y="141.39487">#F7F7F7</tspan></text>
       <rect
-         style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:0.206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient1018);fill-opacity:1;stroke:none;stroke-width:0.20611;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-8-5-6"
          width="8.4666662"
          height="8.4666662"
-         x="67.733337"
-         y="-80.433327"
+         x="67.605049"
+         y="-184.27831"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#cacaca;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient1024);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-5-9-9"
          width="8.4666662"
          height="8.4666662"
-         x="84.666672"
-         y="-80.433327"
+         x="84.538383"
+         y="-184.27831"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#dfdfdf;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient1030);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-0-7-3"
          width="8.4666662"
          height="8.4666662"
-         x="101.59998"
-         y="-80.433327"
+         x="101.47172"
+         y="-184.27831"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#e5e5e5;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient1036);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="rect848-7-8-6-9-5-7"
          width="8.4666662"
          height="8.4666662"
-         x="118.53332"
-         y="-80.433327"
+         x="118.40505"
+         y="-184.27831"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:url(#linearGradient1042);fill-opacity:1;stroke:none;stroke-width:0.206451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          id="rect848-7-8-6-8-6-3-4"
          width="8.4666662"
          height="8.4666662"
-         x="135.46667"
-         y="-80.433327"
+         x="135.33838"
+         y="-184.27831"
          rx="1.0583332"
          ry="1.0583334"
          transform="rotate(90)" />
       <rect
-         style="fill:#3d3d3d;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient14392);fill-opacity:1;stroke:url(#50);stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect848-76-2"
          width="8.2101011"
          height="8.2101011"
-         x="84.794952"
-         y="-35.855045"
+         x="84.666664"
+         y="-139.70006"
          rx="1.0262625"
          ry="1.0262628"
          transform="rotate(90)" />
       <text
          xml:space="preserve"
-         style="font-size:6.06495px;line-height:1.25;font-family:'BlexMono Nerd Font Mono';-inkscape-font-specification:'BlexMono Nerd Font Mono';fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-         x="37.874683"
-         y="73.955055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="141.85466"
+         y="73.729271"
          id="text131620-3-6"><tspan
            sodipodi:role="line"
            id="tspan131618-1-2"
-           style="fill:#f7f7f7;fill-opacity:1;stroke-width:0.252706"
-           x="37.874683"
-           y="73.955055">#2A2A2A</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+           x="141.85466"
+           y="73.729271">#2A2A2A</tspan></text>
       <rect
-         style="fill:#2a2a2a;fill-opacity:1;stroke:#f7f7f7;stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient12934);fill-opacity:1;stroke:url(#50);stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect848-76-2-7"
          width="8.2101011"
          height="8.2101011"
-         x="67.861618"
-         y="-35.855045"
+         x="67.73333"
+         y="-139.70006"
+         rx="1.0262625"
+         ry="1.0262628"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#50);fill-opacity:1;stroke-width:0.252706"
+         x="141.85466"
+         y="56.795933"
+         id="text131620-3-6-8"><tspan
+           sodipodi:role="line"
+           id="tspan12896"
+           x="141.85466"
+           y="56.795933">#1C1C1C</tspan></text>
+      <rect
+         style="fill:url(#linearGradient12922);fill-opacity:1;stroke:url(#50);stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect848-76-2-7-9"
+         width="8.2101011"
+         height="8.2101011"
+         x="50.799999"
+         y="-139.70001"
          rx="1.0262625"
          ry="1.0262628"
          transform="rotate(90)" />
       <rect
-         style="fill:#4a4a4a;fill-opacity:1;stroke:#e5e5e5;stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient14398);fill-opacity:1;stroke:url(#50);stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect848-7-3-5"
          width="8.2101011"
          height="8.2101011"
-         x="101.72829"
-         y="-35.855045"
+         x="101.6"
+         y="-139.70006"
          rx="1.0262625"
          ry="1.0262628"
          transform="rotate(90)" />
       <rect
-         style="fill:#5f5f5f;fill-opacity:1;stroke:#dfdfdf;stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient14404);fill-opacity:1;stroke:url(#50);stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect848-7-8-1-4"
          width="8.2101011"
          height="8.2101011"
-         x="118.66161"
-         y="-35.855045"
+         x="118.53333"
+         y="-139.70006"
          rx="1.0262625"
          ry="1.0262628"
          transform="rotate(90)" />
       <rect
-         style="fill:#6d6d6d;fill-opacity:1;stroke:#cacaca;stroke-width:0.256646;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient15136);fill-opacity:1;stroke:url(#50);stroke-width:0.256646;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect848-7-8-6-7-7"
          width="8.2101011"
          height="8.2101011"
-         x="135.59494"
-         y="-35.855045"
+         x="135.46667"
+         y="-139.70006"
          rx="1.0262625"
          ry="1.0262628"
          transform="rotate(90)" />
       <rect
-         style="fill:#878787;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.256566;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient15177);fill-opacity:1;stroke:none;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect848-7-8-6-8-5-4"
-         width="8.2101011"
-         height="8.2101011"
-         x="152.52827"
-         y="-35.855045"
-         rx="1.0262625"
-         ry="1.0262628"
+         width="8.4666672"
+         height="8.4666672"
+         x="50.671715"
+         y="-184.27831"
+         rx="1.0583333"
+         ry="1.0583335"
          transform="rotate(90)" />
     </g>
   </g>
