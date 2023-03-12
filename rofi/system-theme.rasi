@@ -3,42 +3,20 @@
  * Rofi version: 1.7.0
  **/
 * {
-	theme-bg: #212121;
-	theme-fg: #DEDEDE;
+    theme-1100: #1C1C1C;
+    theme-1000: #2A2A2A;
+    theme-900: #444444;
+    theme-400: #A5A5A5;
+    theme-50: #F7F7F7;
 	theme-green: #CAEE81;
 	theme-red: #FF6B6B;
 	theme-orange: #FFC65C;
 	theme-yellow: #FFF48A;
 	theme-blue: #9CEFFF;
 	theme-purple: #C19EFF;
-    red:                         rgba ( 220, 50, 47, 100 % );
-    selected-active-foreground:  var(background);
-    lightfg:                     rgba ( 88, 104, 117, 100 % );
-    separatorcolor:              var(foreground);
-    urgent-foreground:           var(red);
-    alternate-urgent-background: var(lightbg);
-    lightbg:                     rgba ( 238, 232, 213, 100 % );
-    background-color:            rgba ( 0, 0, 0, 0 % );
-    border-color:                var(foreground);
-    normal-background:           var(background);
-    selected-urgent-background:  var(red);
-    alternate-active-background: var(lightbg);
-    spacing:                     2;
-    blue:                        rgba ( 38, 139, 210, 100 % );
-    alternate-normal-foreground: var(foreground);
-    urgent-background:           var(background);
-    selected-normal-foreground:  var(lightbg);
-    active-foreground:           var(blue);
-    background:                  rgba ( 253, 246, 227, 100 % );
-    selected-active-background:  var(blue);
-    active-background:           var(background);
-    selected-normal-background:  var(lightfg);
-    alternate-normal-background: var(lightbg);
-    foreground:                  rgba ( 0, 43, 54, 100 % );
-    selected-urgent-foreground:  var(background);
-    normal-foreground:           var(foreground);
-    alternate-urgent-foreground: var(red);
-    alternate-active-foreground: var(blue);
+
+    background-color: var(theme-1000);
+    text-color: var(theme-50);
 }
 
 window {
@@ -51,58 +29,54 @@ window {
 mainbox {
     padding: 20;
     border-radius: 15;
-    background-color: var(theme-fg);
     border:  0;
 }
 
+listview {
+    scrollbar:    true;
+    border-color: var(theme-900);
+    fixed-height: 0;
+}
 element {
-	padding: 5px;
+	padding: 8px;
+    border-radius: 4px;
 }
 
 element selected{
-	background-color: var(theme-bg);
-	border-radius: 5;
+    background-color: var(theme-900);
+
 }
 
 element-text selected{
-	text-color: var(theme-fg);
+    background-color: var(theme-900);
+	text-color: var(theme-50);
 }
 
 message {
-    padding:      1px ;
-    border-color: var(theme-fg);
-    border:       2px dash 0px 0px ;
+    padding: 4px 4px 4px 4px;
 }
 textbox {
-    text-color: var(theme-fg);
+    text-color: var(theme-50);
+    padding: 4px;
 }
-listview {
-    padding:      2px 0px 0px ;
-    scrollbar:    true;
-    border-color: var(theme-fg);
-    spacing:      2px ;
-    fixed-height: 0;
-    border:       2px dash 0px 0px ;
-}
+
 scrollbar {
     width:        4px ;
     padding:      0;
     handle-width: 8px ;
     border:       0;
-    handle-color: var(theme-fg);
+    handle-color: var(theme-900);
 }
 sidebar {
-    border-color: var(separatorcolor);
+    border-color: var(theme-900);
     border:       2px dash 0px 0px ;
 }
 button {
     cursor:     pointer;
     spacing:    0;
-    text-color: var(normal-foreground);
 }
 button selected {
-    background-color: var(selected-normal-background);
-    text-color:       var(selected-normal-foreground);
+    text-color:       var(theme-50);
 }
 num-filtered-rows {
     expand:     false;
@@ -115,32 +89,30 @@ num-rows {
 textbox-num-sep {
     expand:     false;
     str:        "/";
-    text-color: rgba ( 128, 128, 128, 100 % );
+    text-color: var(theme-900);
 }
 inputbar {
-    padding:    1px ;
-    spacing:    0px ;
-    text-color: var(normal-foreground);
+    margin: 4px 0px 4px 0px;
+    text-color: var(theme-50);
     children:   [ prompt,textbox-prompt-colon,entry,num-filtered-rows,textbox-num-sep,num-rows,case-indicator ];
 }
 case-indicator {
     spacing:    0;
-    text-color: var(normal-foreground);
+    text-color: var(theme-400);
 }
 entry {
-    text-color:        var(normal-foreground);
     cursor:            text;
     spacing:           0;
-    placeholder-color: rgba ( 128, 128, 128, 100 % );
-    placeholder:       "Type to filter";
+    placeholder-color: var(theme-400);
+    placeholder:       "looking for something?";
+    background-color: var(theme-1000);
 }
 prompt {
-    spacing:    0;
     text-color: var(theme-red);
 }
 textbox-prompt-colon {
     margin:     0px 0.3000em 0.0000em 0.0000em ;
     expand:     false;
-    str:        ":";
-    text-color: inherit;
+    str:        "  ";
+    text-color: var(theme-400);
 }
