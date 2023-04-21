@@ -197,4 +197,4 @@ gaps bottom 48
 bindsym $mod+o gaps inner all toggle 16; gaps bottom all toggle 48
 
 # Bind the compose key to the menu key
-exec --no-startup-id "setxkbmap -option compose:menu"
+exec --no-startup-id "setxkbmap -option caps:menu"
