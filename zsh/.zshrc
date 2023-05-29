@@ -6,7 +6,7 @@ SWD=$(pwd)
 cd $ZDOTDIR
 
 # Load plugins
-source /usr/share/z/z.sh
+source /usr/share/zsh/plugins/zsh-z/zsh-z.plugin.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh

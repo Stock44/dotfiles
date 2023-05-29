@@ -39,7 +39,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start rofi as program launcher
-bindsym $mod+space exec --no-startup-id rofi -show drun
+bindsym $mod+space exec --no-startup-id rofi -dpi 1 -show drun
 
 # change focus
 bindsym $mod+h focus left
@@ -179,6 +179,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id $HOME/.config/wired/launch_wired.sh
 exec_always --no-startup-id flashfocus
 exec_always --no-startup-id "$HOME/.config/i3/random_bg.sh"
+exec_always --no-startup-id "xsetroot -solid #1C1C1C"
 
 exec --no-startup-id "xss-lock $HOME/.config/i3/lock.sh"
 exec --no-startup-id "picom"
@@ -196,5 +197,5 @@ gaps bottom 48
 
 bindsym $mod+o gaps inner all toggle 16; gaps bottom all toggle 48
 
-# Bind the compose key to the menu key
-exec --no-startup-id "setxkbmap -option caps:menu"
+exec --no-startup-id "lxsession"
+exec --no-startup-id "dunst"

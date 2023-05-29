@@ -1,7 +1,7 @@
 @theme "system-theme.rasi"
 configuration {
 	modi: "drun,spotlight:/home/hiram/.config/rofi/spotlight.sh";
-	font: "BlexMono Nerd Font Mono 12";
+	font: "SFMono Nerd Font Mono 8";
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
