@@ -1,6 +1,7 @@
 #!/bin/sh
 
-[[ (-n "pidof i3lock") ]] && i3lock \
+i3lock \
+--nofork \
 --color=$THEME_1100 \
 --insidever-color=$THEME_1100   \
 --ringver-color=$THEME_ORANGE     \
@@ -28,13 +29,3 @@
 --time-str="%H:%M"  \
 --date-str="%d/%m/%Y" \
 --keylayout 1         \
-\
-#--wrongtext="Wrong password"
-
-# --veriftext="Drinking verification can..."
-# --wrongtext="Nope!"
-# --textsize=20
-# --modsize=10
-# --timefont=comic-sans
-# --datefont=monofur
-# etc

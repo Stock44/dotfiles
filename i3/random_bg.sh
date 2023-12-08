@@ -8,7 +8,7 @@ screen_sizes=("${(@f)$(echo $screen_size)}")
 # reversing because in my personal setup the primary monitor appears after the secondary one in xrandr
 screen_sizes=("${(@Oa)screen_sizes}")
 
-feh_command="feh --bg-max"
+feh_command="feh --bg-fill"
 
 for i ("$screen_sizes[@]")
 do

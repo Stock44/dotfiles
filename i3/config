@@ -171,17 +171,15 @@ bindsym $mod+b split horizontal
 bindsym $mod+v split vertical
 
 #Lock computer
-bindsym $mod+backslash exec "light-locker-command -l"
+bindsym $mod+backslash exec "loginctl lock-session"
 
 # Commands to execute at startup
 exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
-#exec_always --no-startup-id $HOME/.config/glava/launch_glava.sh
 exec_always --no-startup-id $HOME/.config/wired/launch_wired.sh
 exec_always --no-startup-id flashfocus
 exec_always --no-startup-id "$HOME/.config/i3/random_bg.sh"
 
-exec --no-startup-id "light-locker"
-# exec --no-startup-id "xss-lock $HOME/.config/i3/lock.sh"
+exec --no-startup-id "xss-lock --transfer-sleep-lock -- $HOME/.config/i3/lock.sh"
 exec --no-startup-id "picom"
 # border colors
 for_window [class=".*"] border pixel 0

@@ -46,3 +46,5 @@ cd $SWD
 
 # Source Node Version Manager
 source /usr/share/nvm/init-nvm.sh
+
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring

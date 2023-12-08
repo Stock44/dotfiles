@@ -7,6 +7,10 @@ highlight LineNr guifg=#444444
 highlight CursorLineNr guibg=#323232 guifg=#707070
 highlight NonText guifg=#707070
 highlight Search guibg=#FFF48A guifg=#212121
+
+highlight Pmenu guibg=#444444 guifg=#CCCCCC
+highlight PmenuSel guibg=#B9B9B9 guifg=#2A2A2A
+
 " Syntax settings
 highlight Operator guifg=#FF6B6B
 highlight Constant guifg=#C19EFF
