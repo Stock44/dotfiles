@@ -1,0 +1,124 @@
+/**
+ * rofi -dump-theme output.
+ * Rofi version: 1.7.0
+ **/
+* {    
+    text: #cdd6f4;
+
+    overlay2: #9399b2;
+    overlay1: #7f849c;
+    overlay0: #6c7086;
+
+    surface2: #585b70;
+    surface1: #45475a;
+    surface0: #313244;
+
+    base: #1e1e2e;
+    mantle: #181818;
+    crust: #11111b;
+
+    base-overlay: #1e1e2e99;
+}
+
+window {
+    padding: 37% 35%;
+    width: 100%;
+    height: 100%;
+    background-color: var(base-overlay);
+    border:           0;
+}
+mainbox {
+    padding: 0px;
+    border-radius: 8;
+    border:  1;
+    border-color: var(surface2);
+    background-color: var(base);
+}
+
+listview {
+    scrollbar:    true;
+    border-color: var(surface2);
+    fixed-height: 0;
+    background-color: var(base);
+}
+element {
+	padding: 16px;
+    border-radius: 4px;
+    background-color: var(base);
+}
+
+element selected{
+    background-color: var(surface0);
+}
+
+element-text selected{
+    background-color: var(surface0);
+	text-color: var(text);
+}
+
+element-text {
+    background-color: var(base);
+    text-color: var(text);
+}
+
+message {
+    padding: 4px 4px 4px 4px;
+    background-color: var(base);
+}
+textbox {
+    text-color: var(text);
+    padding: 0px;
+    background-color: var(base);
+}
+
+button {
+    cursor:     pointer;
+    spacing:    0;
+    background-color: var(base);
+}
+button selected {
+    text-color:       var(text);
+    background-color: var(base);
+}
+num-filtered-rows {
+    expand:     false;
+    text-color: var(surface2);
+    background-color: var(base);
+}
+num-rows {
+    expand:     false;
+    text-color: var(surface2);
+    background-color: var(base);
+}
+textbox-num-sep {
+    expand:     false;
+    str:        " of ";
+    text-color: var(surface2);
+    background-color: var(base);
+}
+inputbar {
+    margin: 16px;
+    text-color: var(text);
+    children:   [ prompt,textbox-prompt-colon,entry,num-filtered-rows,textbox-num-sep,num-rows,case-indicator ];
+    background-color: var(base);
+}
+case-indicator {
+    spacing:    0;
+    text-color: var(text);
+    background-color: var(base);
+}
+entry {
+    cursor:            text;
+    spacing:           0;
+    text-color: var(text);
+    placeholder-color: var(overlay2);
+    placeholder:       "looking for something?";
+    background-color: var(base);
+}
+textbox-prompt-colon {
+    margin:     2px 16px 16px 2px ;
+    expand:     false;
+    str:        "";
+    text-color: var(overlay2);
+    background-color: var(base);
+}

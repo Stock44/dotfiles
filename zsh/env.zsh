@@ -42,3 +42,4 @@ export THEME_1000="#2A2A2A"
 export THEME_1100="#1C1C1C"
 
 
+export ELECTRON_OZONE_PLATFORM_HINT=wayland

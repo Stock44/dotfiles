@@ -50,6 +50,14 @@ local plugins = {
                 branch = "3p"
             }
         }
+    },
+    {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        priority = 1000,
+        init = function ()
+            vim.cmd.colorscheme "catppuccin"
+        end
     }
 }
 

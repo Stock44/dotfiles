@@ -1,7 +1,6 @@
 if os.getenv("TERM") == "xterm-kitty" then
     vim.cmd("silent !kitty @ --to=$KITTY_LISTEN_ON set-spacing padding=0")
     vim.opt.termguicolors = true
-    vim.cmd("colorscheme monokai")
     vim.api.nvim_create_autocmd({"VimLeavePre"}, {
         pattern = {"*"},
         command = "silent !kitty @ --to=$KITTY_LISTEN_ON set-spacing padding-h=16 padding-v=8"

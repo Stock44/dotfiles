@@ -1,7 +1,7 @@
-@theme "system-theme.rasi"
+@theme "catppuccin-mocha.rasi"
 configuration {
 	modi: "drun";
-	font: "JuliaMono 12";
+	font: "SF Pro Text 12";
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
