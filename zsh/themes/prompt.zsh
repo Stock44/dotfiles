@@ -10,11 +10,18 @@ autoload -Uz vcs_info
 # Activate prompt substitution
 setopt PROMPT_SUBST
 
+RED='#f38ba8'
+PEACH='#fab387'
+GREEN='#a6e3a1'
+YELLOW='#f9e2af'
+TEXT='#cdd6f4'
+OVERLAY2='#9399b2'
+
 # Set text for the VCS status indicators
-FMT_UNSTAGED="%f %F{$THEME_ORANGE%}●"
-FMT_STAGED="%f %F{$THEME_GREEN%}✚"
-FMT_ACTION="(%F{$THEME_GREEN%}%a%f)"
-FMT_VCS_STATUS="%F{$THEME_RED%}branch %F{$THEME_ORANGE%}%b%u%c%f"
+FMT_UNSTAGED="%f %F{$PEACH%}●"
+FMT_STAGED="%f %F{$GREEN%}✚"
+FMT_ACTION="(%F{$GREEN%}%a%f)"
+FMT_VCS_STATUS="%F{$RED%}branch %F{$PEACH%}%b%u%c%f"
 
 # Configure vcs indicators
 zstyle ':vcs_info:*' enable git
@@ -38,4 +45,4 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 add-zsh-hook precmd vcs_info
 
 # Set the prompt
-PROMPT=$'%F{$THEME_RED}%n %F{$THEME_YELLOW}%~ ${vcs_info_msg_0_}\n%F{$THEME_500%}%F{$THEME_50} '
+PROMPT=$'%F{$RED}%n %F{$YELLOW}%~ ${vcs_info_msg_0_}\n%F{$OVERLAY2%}%F{$TEXT} '
