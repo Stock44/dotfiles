@@ -21,7 +21,7 @@
 }
 
 window {
-    padding: 37% 35%;
+    padding: 38% 35%;
     width: 100%;
     height: 100%;
     background-color: var(base-overlay);
@@ -38,7 +38,6 @@ mainbox {
 listview {
     scrollbar:    true;
     border-color: var(surface2);
-    fixed-height: 0;
     background-color: var(base);
 }
 element {
