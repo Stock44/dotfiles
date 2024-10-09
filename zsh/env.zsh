@@ -4,9 +4,13 @@ export ZDOTDIR=$HOME/.config/zsh
 # Editor variable
 export EDITOR=nvim
 
+export QT_DEVICE_PIXEL_RATIO=2
+
 # XDG env variables
 export XDG_RUNTIME_DIR="/run/user/$UID"
 export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
+
+export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock
 
 # pyenv
 export PYENV_ROOT=$HOME/.pyenv

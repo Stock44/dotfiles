@@ -16,6 +16,7 @@ GREEN='#a6e3a1'
 YELLOW='#f9e2af'
 TEXT='#cdd6f4'
 OVERLAY2='#9399b2'
+BLUE='#89b4fa'
 
 # Set text for the VCS status indicators
 FMT_UNSTAGED="%f %F{$PEACH%}●"
@@ -45,4 +46,4 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 add-zsh-hook precmd vcs_info
 
 # Set the prompt
-PROMPT=$'%F{$RED}%n %F{$YELLOW}%~ ${vcs_info_msg_0_}\n%F{$OVERLAY2%}%F{$TEXT} '
+PROMPT=$'%F{$RED}%n %F{$YELLOW}%~ ${vcs_info_msg_0_}\n%F{$OVERLAY2}→ %F{$TEXT}'

@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/submap"],
     "modules-center": ["mpris"],
-    "modules-right": ["tray", "pulsaudio", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "battery", "clock", "group/group-power"],
+    "modules-right": ["tray", "custom/updates", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "battery", "clock", "group/group-power"],
     // Modules configuration
     "hyprland/workspaces": {
     },
@@ -118,5 +118,15 @@
         },
         "on-click": "pavucontrol"
     },
+    "custom/updates": {
+       "format": "{} {icon}",
+       "return-type": "json",
+       "format-icons": {
+           "has-updates": "󱍷",
+           "updated": "󰂪"
+       },
+       "exec-if": "which waybar-module-pacman-updates",
+       "exec": "waybar-module-pacman-updates"
+    }
 }
 
