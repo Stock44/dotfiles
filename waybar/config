@@ -4,13 +4,18 @@
     "height": 32,
     "spacing": 4,
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/submap"],
+    "modules-left": ["hyprland/workspaces",  "hyprland/window", "hyprland/submap"],
     "modules-center": ["mpris"],
-    "modules-right": ["tray", "custom/updates", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "battery", "clock", "group/group-power"],
+    "modules-right": ["tray", "custom/updates", "idle_inhibitor", "hyprland/language", "pulseaudio", "network", "cpu", "memory", "battery", "clock", "group/group-power"],
     // Modules configuration
     "hyprland/workspaces": {
     },
     "hyprland/window": {
+    },
+    "hyprland/language": {
+        "format": "󰌌 {}",
+        "format-en": "QWERTY",
+        "format-en-colemak_dh": "COLEMAK",
     },
     "hyprland/submap": {
     },
